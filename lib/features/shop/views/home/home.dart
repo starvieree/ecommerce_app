@@ -1,4 +1,5 @@
 import 'package:ecommerce_app/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:ecommerce_app/features/shop/views/home/widgets/home_appbar.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,16 +11,22 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            /// -- Header --
             TPrimaryHeaderContainer(
-              child: Column(
-                children: [
+                child: Column(
+              children: [
+                /// -- AppBar --
+                THomeAppBar(),
 
-                ],
-              ),
-            )
+                /// -- Searchbar --
+                
+                /// -- Categories --
+              ],
+            ))
           ],
         ),
       ),
     );
   }
 }
+
