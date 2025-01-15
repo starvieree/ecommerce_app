@@ -20,4 +20,15 @@ class TImages {
   static const String deliveredInPlaneIllustration = "assets/images/animations/investment.png";
   static const String deliveredEmailIllustration = "assets/images/animations/problem-solved.png";
   static const String verifyIllustration = "assets/images/animations/travel.png";
+
+  // Category Items
+  static const String sportIcon = "assets/icons/categories/badminton.png";
+  static const String clothIcon = "assets/icons/categories/shirt.png";
+  static const String shoeIcon = "assets/icons/categories/running-shoe.png";
+  static const String cosmeticsIcon = "assets/icons/categories/makeup.png";
+  static const String animalIcon = "assets/icons/categories/dog.png";
+  static const String toyIcon = "assets/icons/categories/toys.png";
+  static const String furnitureIcon = "assets/icons/categories/furniture.png";
+  static const String jewelryIcon = "assets/icons/categories/rings.png";
+  static const String electronicsIcon = "assets/icons/categories/electronics.png";
 }
